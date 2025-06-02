@@ -64,7 +64,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - '2'
-  - {t: '3', h: toggle}
+  - {t: '4', h: toggle}
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -128,7 +128,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '3', h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - '~'
@@ -259,4 +259,69 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: LAYER0, h: toggle}
+  '4':
+  - $$mdi:keyboard-esc$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - $$mdi:arrow-up-bold$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '-', s: _}
+  - $$mdi:keyboard-tab$$
+  - Q
+  - L
+  - E
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - $$mdi:arrow-down-bold$$
+  - F
+  - W
+  - R
+  - Y
+  - P
+  - {t: '=', s: +}
+  - $$mdi:apple-keyboard-caps$$
+  - A
+  - U
+  - I
+  - O
+  - {t: '-', s: _}
+  - $$mdi:arrow-left-bold$$
+  - K
+  - T
+  - N
+  - S
+  - H
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - {t: ;, s: ':'}
+  - $$mdi:arrow-right-bold$$
+  - G
+  - D
+  - M
+  - J
+  - B
+  - {t: \, s: '|'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - layer1
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - LAYER0
   - {t: LAYER0, h: toggle}
